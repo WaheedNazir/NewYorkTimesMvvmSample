@@ -23,7 +23,7 @@ object AppModule {
 
     @Singleton
     @Provides
-    fun provideDefaultShoppingRepository(api: NytAPI) =
+    fun provideDefaultArticlesRepository(api: NytAPI) =
         DefaultArticlesRepository(api) as ArticlesRepository
 
     @Singleton
