@@ -16,7 +16,7 @@ A sample app that display list of New York Times news. The purpose of this proje
  12. JetPack Libraries
 
 ### Demo
-<img height="400px" src="https://github.com/WaheedNazir/NewYorkTimesMvvmSample/blob/master/sample/nyt_sample.gif" />
+<img height="400px" src="https://github.com/WaheedNazir/NewYorkTimesMvvmSample/blob/main/sample/nyt_sample.gif" />
 
 ### Other samples of MVVM using Kotlin
 
