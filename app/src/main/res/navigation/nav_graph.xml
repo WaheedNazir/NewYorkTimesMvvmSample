@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nytFragment">
+
+    <fragment
+        android:id="@+id/nytFragment"
+        android:name="com.waheed.nytimes.ui.main.NYTFragment"
+        android:label="NYT">
+        <action
+            android:id="@+id/action_nytFragment_to_searchArticleFragment"
+            app:destination="@id/searchArticleFragment" />
+        <action
+            android:id="@+id/action_nytFragment_to_articlesFragment"
+            app:destination="@id/articlesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/articlesFragment"
+        android:name="com.waheed.nytimes.ui.articles.ArticlesFragment"
+        android:label="Popular Articles" />
+
+    <fragment
+        android:id="@+id/searchArticleFragment"
+        android:name="com.waheed.nytimes.ui.search.SearchArticlesFragment"
+        android:label="Search Article" />
+</navigation>

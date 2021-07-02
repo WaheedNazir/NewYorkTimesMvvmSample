@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NYT</string>
+    <string name="search_for_articles">Search for articles…</string>
+    <string name="search_articles">Search Articles</string>
+    <string name="search">Search</string>
+    <string name="most_shared">Most Shared</string>
+    <string name="most_viewed">Most Viewed</string>
+    <string name="most_emailed">Most Emailed</string>
+    <string name="popular">Popular</string>
+</resources>
