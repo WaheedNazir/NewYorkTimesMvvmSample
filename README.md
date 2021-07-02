@@ -33,4 +33,4 @@ A sample app that display list of New York Times news. The purpose of this proje
 
 
 ## API Sources
- 1. [New York Times, Developer API](https://https://developer.nytimes.com/)
+ 1. [New York Times, Developer API](https://developer.nytimes.com/)
